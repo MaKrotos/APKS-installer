@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    Version 2.0
+    ...
+  -->
+  <xsd:schema id="root"
+    xmlns=""
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ButtonInstallAll" xml:space="preserve">
+    <value>Select and install .apks</value>
+  </data>
+  <data name="ButtonRefreshDevices" xml:space="preserve">
+    <value>Refresh device list</value>
+  </data>
+  <data name="FormTitle" xml:space="preserve">
+    <value>APK/APKS Installer for Android (via ADB)</value>
+  </data>
+  <data name="SuccessUnzip" xml:space="preserve">
+    <value>File successfully unzipped to: </value>
+  </data>
+  <data name="Success" xml:space="preserve">
+    <value>Success</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="NoDevices" xml:space="preserve">
+    <value>No connected devices</value>
+  </data>
+  <data name="AdbNotFound" xml:space="preserve">
+    <value>adb.exe not found in application folder!</value>
+  </data>
+  <data name="NoApkFiles" xml:space="preserve">
+    <value>No .apk files found in the folder!</value>
+  </data>
+  <data name="NoDeviceSelected" xml:space="preserve">
+    <value>No device selected for installation!</value>
+  </data>
+  <data name="InstallStarted" xml:space="preserve">
+    <value>=== Start APK installation via ADB ===</value>
+  </data>
+  <data name="InstallFinished" xml:space="preserve">
+    <value>=== End of installation ===</value>
+  </data>
+  <data name="InstallSuccess" xml:space="preserve">
+    <value>Installation completed successfully!</value>
+  </data>
+  <data name="InstallError" xml:space="preserve">
+    <value>Installation error!</value>
+  </data>
+  <data name="SelectApksTitle" xml:space="preserve">
+    <value>Select APKs file</value>
+  </data>
+  <data name="ApksNotSelected" xml:space="preserve">
+    <value>.apks file not selected.</value>
+  </data>
+  <data name="UnzipLog" xml:space="preserve">
+    <value>Unzipping file: </value>
+  </data>
+  <data name="ClearFolderLog" xml:space="preserve">
+    <value>Creating/clearing folder: </value>
+  </data>
+  <data name="CheckDevicesLog" xml:space="preserve">
+    <value>Checking connected devices</value>
+  </data>
+  <data name="PrepareInstallLog" xml:space="preserve">
+    <value>Preparing to install {0} files: {1}</value>
+  </data>
+  <data name="StartInstallLog" xml:space="preserve">
+    <value>Starting installation via adb...</value>
+  </data>
+  <data name="DragDropHint" xml:space="preserve">
+    <value>Drag and drop .apks file here</value>
+  </data>
+</root>

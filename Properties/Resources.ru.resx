@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<!-- 
+    Microsoft ResX Schema 
+    Version 2.0
+    ...
+  -->
+	<xsd:schema id="root"
+		xmlns=""
+		xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+		xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+							<xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+							<xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+							<xsd:attribute ref="xml:space" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="resmimetype">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="version">
+		<value>2.0</value>
+	</resheader>
+	<resheader name="reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="ButtonInstallAll" xml:space="preserve">
+		<value>Выбрать и установить .apks</value>
+	</data>
+	<data name="ButtonRefreshDevices" xml:space="preserve">
+		<value>Обновить список устройств</value>
+	</data>
+	<data name="FormTitle" xml:space="preserve">
+		<value>Установщик APK/APKS для Android (через ADB)</value>
+	</data>
+	<data name="SuccessUnzip" xml:space="preserve">
+		<value>Файл успешно разархивирован в: </value>
+	</data>
+	<data name="Success" xml:space="preserve">
+		<value>Успех</value>
+	</data>
+	<data name="Error" xml:space="preserve">
+		<value>Ошибка</value>
+	</data>
+	<data name="NoDevices" xml:space="preserve">
+		<value>Нет подключённых устройств</value>
+	</data>
+	<data name="AdbNotFound" xml:space="preserve">
+		<value>adb.exe не найден в папке приложения!</value>
+	</data>
+	<data name="NoApkFiles" xml:space="preserve">
+		<value>В папке нет файлов .apk для установки!</value>
+	</data>
+	<data name="NoDeviceSelected" xml:space="preserve">
+		<value>Не выбрано устройство для установки!</value>
+	</data>
+	<data name="InstallStarted" xml:space="preserve">
+		<value>=== Начало установки APK через ADB ===</value>
+	</data>
+	<data name="InstallFinished" xml:space="preserve">
+		<value>=== Конец установки ===</value>
+	</data>
+	<data name="InstallSuccess" xml:space="preserve">
+		<value>Установка завершена успешно!</value>
+	</data>
+	<data name="InstallError" xml:space="preserve">
+		<value>Ошибка установки!</value>
+	</data>
+	<data name="SelectApksTitle" xml:space="preserve">
+		<value>Выберите файл APKs</value>
+	</data>
+	<data name="ApksNotSelected" xml:space="preserve">
+		<value>Файл .apks не выбран.</value>
+	</data>
+	<data name="UnzipLog" xml:space="preserve">
+		<value>Распаковка файла: </value>
+	</data>
+	<data name="ClearFolderLog" xml:space="preserve">
+		<value>Создание/очистка папки: </value>
+	</data>
+	<data name="CheckDevicesLog" xml:space="preserve">
+		<value>Проверка подключённых устройств</value>
+	</data>
+	<data name="PrepareInstallLog" xml:space="preserve">
+		<value>Готовим установку {0} файлов: {1}</value>
+	</data>
+	<data name="StartInstallLog" xml:space="preserve">
+		<value>Запуск установки через adb...</value>
+	</data>
+	<data name="DragDropHint" xml:space="preserve">
+		<value>Перетащите сюда файл .apks</value>
+	</data>
+</root>
