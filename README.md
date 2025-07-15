@@ -10,6 +10,11 @@
 
 **APKS Installer** — это простое приложение с графическим интерфейсом для установки `.apks` пакетов на Android-устройства через ADB. Я нашёл способ установки приложений формата `.apks` на Android 15+ и решил сделать под него интерфейс для простой установки. На моём Realme GT 5 PRO (Android 15) всё прекрасно устанавливается этим способом. Это решение особенно полезно для тех, у кого не получается установить `.apks` другими способами (например, через SAI или командную строку). Мне самому помог именно этот способ, поэтому я решил сделать для него удобный интерфейс.
 
+### Скачать
+
+- [Скачать для Windows x86 (32-bit)](https://github.com/MaKrotos/APKS-installer/releases/download/Apks_Installer/win-x86.zip)
+- [Скачать для Windows x64 (64-bit)](https://github.com/MaKrotos/APKS-installer/releases/download/Apks_Installer/win-x64.zip)
+
 ### Возможности
 
 - Установка `.apks` (мульти-APK) пакетов на Android-устройства, включая Android 15 и выше
@@ -54,6 +59,11 @@
 ### Description
 
 **APKS Installer** is a simple GUI application for installing `.apks` packages on Android devices via ADB. I found a way to install `.apks` format applications on Android 15+ and decided to create an interface for easy installation. On my Realme GT 5 PRO (Android 15), everything installs perfectly using this method. This solution is especially useful for those who cannot install `.apks` by other means (e.g., via SAI or command line). This method helped me personally, so I decided to create a user-friendly interface for it.
+
+### Download
+
+- [Download for Windows x86 (32-bit)](https://github.com/MaKrotos/APKS-installer/releases/download/Apks_Installer/win-x86.zip)
+- [Download for Windows x64 (64-bit)](https://github.com/MaKrotos/APKS-installer/releases/download/Apks_Installer/win-x64.zip)
 
 ### Features
 
